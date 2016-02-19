@@ -8,6 +8,7 @@ Place to store various Ruby and Rails exercises
 * Following the instruction on when you should commit
 * Create a pull request when you are done.
 * Post you pull request in the slack room
+* if you have trouble with the git commands, please ask for help
 
 # Getting Started (Do this before attemping any exercises)
 
@@ -24,7 +25,7 @@ but instead of `octocat/Spoon-Knife` use `unboxed/ruby-exercises`.
   git checkout -b [exercise_name]
   git branch --set-upstream-to origin/[exercise_name]
   git merge upstream/[exercise_name]
-  git commit --allow-empty -m "Starting"
+  git commit --allow-empty -m "Starting" # we do allow-empty because there will be no files to commit but it's used as marker of when you started the exercise
   # Follow EXERCISE.md
 ```
 
