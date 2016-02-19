@@ -23,6 +23,7 @@ but instead of `octocat/Spoon-Knife` use `unboxed/ruby-exercises`.
   git fetch upstream
   git checkout -b [exercise_name] --set-upstream-to origin/[exercise_name]
   git merge upstream/[exercise_name]
+  git commit --allow-empty -m "Starting"
   # Follow EXERCISE.md
 ```
 
@@ -33,5 +34,6 @@ do `rails-getting-started` exercise first to test the flow
   git fetch upstream
   git checkout -b rails-getting-started --set-upstream-to origin/rails-getting-started
   git merge upstream/rails-getting-started
+  git commit --allow-empty -m "Starting"
   # Follow EXERCISE.md
 ```
