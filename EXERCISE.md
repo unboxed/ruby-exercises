@@ -1,1 +1,16 @@
-# Changes per branch
+# Rails Getting Started
+
+## Commit 1
+```
+bin/setup # this will bundle install for you as well
+bin/rails s -b 0.0.0.0
+# visit http://localhost:3000 and you should see Welcome aboard
+git commit --allow-empty -m "Commit 1 Done"
+```
+
+## Commit 2
+
+* create a index.html in `public`
+* add a h1 saying "Hello World" in index.html
+* add and commit
+
