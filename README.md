@@ -1,17 +1,35 @@
-# ruby-exercises
+# Build a Simple rails app using scaffolds
 
-Place to store various Ruby and Rails exercises
-
-# Getting Started
-
-Make sure to fork this repo to you local account.
-
-You can follow `Fork an example repository`, `Keep your fork synced` at the [github help](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository)
-but instead of `octocat/Spoon-Knife` use `unboxed/ruby-exercises`.
-
-
-# Scaffold exercise
-
+## Model Design
 ```
-  git checkout rails-scaffold
+House
+  Date Built (date)
+  Address (string)
+  City (string)
+  Active (boolean)
+  
+Resident
+  Belongs to (House)
+  Full Name (string)
+  Date of Birth (date)
+  ID Number (string)
+  Room Number (integer)
 ```
+
+# Commit 1 (Rails new)
+* `git init`
+* create a new rails app
+* add rails-spec gem
+* use sqlite as database
+
+# Commit 2 (generate House Scaffold)
+* generate house scaffold
+* make sure all crud actions work
+
+# Commit 3 (generate resident scaffold)
+* generate resident scaffold
+* needs to be nested resource of houses
+
+# Bonus points
+* Capybara Tests
+* 100% Test Coverage
