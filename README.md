@@ -27,6 +27,7 @@ but instead of `octocat/Spoon-Knife` use `unboxed/ruby-exercises`.
   git merge upstream/[exercise_name]
   git commit --allow-empty -m "Starting" # we do allow-empty because there will be no files to commit but it's used as marker of when you started the exercise
   # Follow EXERCISE.md
+  # Create Pull request when Done (Ask for help if you don't know how)
 ```
 
 do `rails-getting-started` exercise first to test the flow
@@ -39,4 +40,5 @@ do `rails-getting-started` exercise first to test the flow
   git merge upstream/rails-getting-started
   git commit --allow-empty -m "Starting"
   # Follow EXERCISE.md
+  # Create Pull request when Done (Ask for help if you don't know how)
 ```
