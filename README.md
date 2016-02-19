@@ -7,8 +7,9 @@ Place to store various Ruby and Rails exercises
 * Do as much as you can in 1 hour but don't rush yourself
 * Following the instruction on when you should commit
 * Create a pull request when you are done.
+* Post you pull request in the slack room
 
-# Getting Started
+# Getting Started (Do this before attemping any exercises)
 
 Make sure to fork this repo to your local account.
 
