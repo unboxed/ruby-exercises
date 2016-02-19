@@ -12,6 +12,7 @@ git commit --allow-empty -m "Commit 1 Done" # allow-empty because there will be 
 
 * create a index.html in `public`
 * add a h1 saying "Hello World" in index.html
+* visit http://localhost:3000 and see "Hello World"
 * `git add public/index.html`
 * commit
 
