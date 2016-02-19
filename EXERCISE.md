@@ -16,18 +16,19 @@ Resident
   Room Number (integer)
 ```
 
-# Commit 1 (Rails new)
-* create a new rails app
-* add rails-spec gem
-* use sqlite as database
-
-# Commit 2 (generate House Scaffold)
+### Commit 1 (generate House Scaffold)
 * generate house scaffold
 * make sure all crud actions work
+* '/' should go to houses list page, ie set root in routes.rb
 
-# Commit 3 (generate resident scaffold)
+### Commit 2 (generate resident scaffold)
 * generate resident scaffold
-* needs to be nested resource of houses
+* make sure all crud actions work
+* form should allow you to select a house that the resident belongs to
+do not nest resident scaffold inside houses resource
+
+### Commit 3 (list house residents)
+Add a link on house list page that takes you to a list page of all the residents of that house.
 
 # Bonus points
 * Capybara Tests
