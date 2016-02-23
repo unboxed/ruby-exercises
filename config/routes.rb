@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   resources :residents
-  resources :houses
+  resources :houses do
+    member do
+      get 'residents'
+    end
+  end
   root to: 'houses#index'
 end

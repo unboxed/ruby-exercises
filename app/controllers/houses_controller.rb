@@ -12,7 +12,7 @@
 #
 
 class HousesController < ApplicationController
-  before_action :set_house, only: [:show, :edit, :update, :destroy]
+  before_action :set_house, only: [:show, :edit, :update, :destroy, :residents]
 
   # GET /houses
   def index
@@ -56,6 +56,10 @@ class HousesController < ApplicationController
   def destroy
     @house.destroy
     redirect_to houses_url, notice: 'House was successfully destroyed.'
+  end
+
+  def residents
+    @residents = Resident.where(house_id: @house.id)
   end
 
   private
