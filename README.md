@@ -8,6 +8,13 @@ Place to store various Ruby and Rails exercises
 * Following the instruction on when you should commit
 * Create a pull request when you are done.
 * Post you pull request in the slack room
+* if you have trouble with the git commands, please ask for help
+
+# Prerequisites
+
+* ruby
+* git
+* github account
 
 # Getting Started (Do this before attemping any exercises)
 
@@ -24,8 +31,14 @@ but instead of `octocat/Spoon-Knife` use `unboxed/ruby-exercises`.
   git checkout -b [exercise_name]
   git branch --set-upstream-to origin/[exercise_name]
   git merge upstream/[exercise_name]
-  git commit --allow-empty -m "Starting"
+  git commit --allow-empty -m "Starting" # we do allow-empty because there will be no files to commit but it's used as marker of when you started the exercise
   # Follow EXERCISE.md
+  # ...
+
+  # make sure all everything is committed
+  # git push origin [exercise_name]
+  # Create Pull request when Done (Ask for help if you don't know how)
+  #   base_fork: unboxed/ruby-exercises base: [exercise_name] ... base_fork: [username]/ruby-exercises base: [exercise_name]
 ```
 
 do `rails-getting-started` exercise first to test the flow
@@ -38,4 +51,10 @@ do `rails-getting-started` exercise first to test the flow
   git merge upstream/rails-getting-started
   git commit --allow-empty -m "Starting"
   # Follow EXERCISE.md
+  # ...
+
+  # make sure all everything is committed
+  # git push origin rails-getting-started
+  # Create Pull request when Done (Ask for help if you don't know how)
+  #   base_fork: unboxed/ruby-exercises base: rails-getting-started ... base_fork: [username]/ruby-exercises base: rails-getting-started
 ```
