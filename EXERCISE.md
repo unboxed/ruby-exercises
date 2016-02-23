@@ -1,1 +1,1 @@
-# Changes per branch
+# This is the base branch for ruby exercises
