@@ -10,6 +10,12 @@ Place to store various Ruby and Rails exercises
 * Post you pull request in the slack room
 * if you have trouble with the git commands, please ask for help
 
+# Prerequisites
+
+* ruby
+* git
+* github account
+
 # Getting Started (Do this before attemping any exercises)
 
 Make sure to fork this repo to your local account.
