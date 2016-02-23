@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+User.find_or_initialize_by(full_name: 'Merith Arahana').update(date_of_birth: 35.years.ago.to_date, active: true)
+User.find_or_initialize_by(full_name: 'Ardryll Kelxalim').update(date_of_birth: 30.years.ago.to_date, active: true)
+User.find_or_initialize_by(full_name: 'Sythaeryn Olofiel').update(date_of_birth: 40.years.ago.to_date, active: false)
+User.find_or_initialize_by(full_name: 'Delsaran Herdove').update(date_of_birth: 25.years.ago.to_date, active: true)
+User.find_or_initialize_by(full_name: 'Garrik Morren').update(date_of_birth: 45.years.ago.to_date, active: true)
+User.find_or_initialize_by(full_name: 'Ivran Beizumin').update(date_of_birth: 20.years.ago.to_date, active: false)
+User.find_or_initialize_by(full_name: 'Tamnaeuth Naebalar').update(date_of_birth: 50.years.ago.to_date, active: true)
+User.find_or_initialize_by(full_name: 'Zelphar Qipetor').update(date_of_birth: 15.years.ago.to_date, active: true)
+User.find_or_initialize_by(full_name: 'Elmer Ravatris').update(date_of_birth: 55.years.ago.to_date, active: false)
+User.find_or_initialize_by(full_name: 'Tassarion Bryroris').update(date_of_birth: 10.years.ago.to_date, active: true)
