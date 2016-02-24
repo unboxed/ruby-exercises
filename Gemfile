@@ -13,6 +13,8 @@ gem 'therubyracer', platforms: :ruby
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'tzinfo-data'
+
 
 group :development, :test do
   gem 'rspec-rails'
