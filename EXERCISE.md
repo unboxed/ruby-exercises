@@ -5,7 +5,8 @@
 bin/setup # this will bundle install for you as well
 bin/rails s -b 0.0.0.0
 # visit http://localhost:3000 and you should see Welcome aboard
-git commit --allow-empty -m "Commit 1 Done" # allow-empty because there will be no files to add but it shows your have finished the task
+git commit --allow-empty -m "Commit 1 Done"
+# allow-empty because there will be no files to add but it shows your have finished the task
 ```
 
 ## Commit 2
